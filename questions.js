@@ -105,7 +105,7 @@ const questionPool = [
     },
     {
         image: "https://img.piri.net/mnresize/720/-/piri/upload/3/2024/1/31/ab231ee6-dogu-esrefoglu-2.jpg",
-        question: "Bu sahne hangi türk dizisinde geçmektedir?",
+        question: "Bu sahne hangi Türk dizisinde geçmektedir?",
         options: ["Kurtlar Vadisi", "Ezel", "Behzat Ç.", "Leyla ile Mecnun"],
         correct: 0,
         explanation: "Bu sahne Türk diziler tarihinin efsanesi Kurtlar Vadisi'nde geçmektedir."
@@ -135,7 +135,7 @@ const questionPool = [
         image: "./search_images/PHOTO-2024-05-24-16-29-28.jpg",
         question: "Bu ekibin en sevdiği yemek?",
         options: ["Döner", "Sushi", "Cağ", "Hatay Çorbası (Döneri(!))"],
-        correct: 0,
+        correct: 2,
         explanation: "BLUE TEAM DAY!! 😉"
     },
     {
@@ -258,8 +258,8 @@ const questionPool = [
         image: "./search_images/PHOTO-2025-04-22-14-52-16.jpg",
         question: "Bu fotoğraf nerede çekilmiştir?",
         options: ["ATLANTIS FAN KLUP", "Suadiye WellDone", "AkasyaAVM", "Picus Ofis"],
-        correct: 3,
-        explanation: "Osman Can yenilirken..."
+        correct: 0,
+        explanation: "Osman Can bilardo öğreniyor 😉"
     },
     {
         image: "https://iasbh.tmgrup.com.tr/c9f465/650/344/0/71/1152/675?u=https://isbh.tmgrup.com.tr/sbh/2020/03/05/en-harika-adana-kebap-tarifi-adana-kebap-nasil-yapilir-1583404717106.jpg",

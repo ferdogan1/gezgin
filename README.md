@@ -1,36 +1,37 @@
 # 🌍 Dünya Gezgini - Zoom Ekip Oyunu
 
-🚀 **[OYUNU ŞİMDİ OYNA - CANLI DEMO](https://ferdogan1.github.io/oyun/)** 🚀
+🚀 **[OYUNU ŞİMDİ OYNA - CANLI DEMO](https://ferdogan1.github.io/gezgin/)** 🚀
 
-Zoom üzerinde toplanmış ekipler için tasarlanmış eğlenceli coğrafya quiz oyunu! Bireysel olarak oynayıp puanlarınızı karşılaştırın.
+Zoom üzerinde toplanmış ekipler için tasarlanmış eğlenceli quiz oyunu! Görsellerle desteklenmiş sorularla bilginizi test edin.
 
 ## 🌐 GitHub Pages'de Canlı
 
 Bu oyun şu anda GitHub Pages üzerinde aktif olarak çalışmaktadır:
-- **URL**: `https://ferdogan1.github.io/oyun/`
+- **URL**: `https://ferdogan1.github.io/gezgin/`
 - **Durum**: ✅ 7/24 Aktif ve erişilebilir
 - **Performans**: Hızlı yükleme (~2 saniye)
 - **Güvenlik**: HTTPS ile güvenli bağlantı
 - **Mobil Uyumlu**: Tüm cihazlarda mükemmel çalışır
 
 ### 📱 Zoom'da Nasıl Kullanılır?
-1. **Oyun Lideri**: Ekranını paylaşır ve `https://ferdogan1.github.io/oyun/` adresini açar
+1. **Oyun Lideri**: Ekranını paylaşır ve `https://ferdogan1.github.io/gezgin/` adresini açar
 2. **Katılımcılar**: Aynı linki kendi cihazlarında açar
 3. **Senkronize Başlangıç**: "3-2-1 Başla!" ile aynı anda oyuna başlar
 4. **Rekabet**: 50 soru sonunda skorları karşılaştırır
 
 ## 🎮 Oyun Hakkında
 
-**Dünya Gezgini**, dünyaca ünlü landmark'lar, şehirler ve ülkeler hakkında görsel sorular içeren eğlenceli bir quiz oyunudur. Her oyuncu kendi ekranından bireysel olarak oynar, sonuçlar otomatik olarak karşılaştırılır.
+**Dünya Gezgini**, dünyaca ünlü landmark'lar, Türk ve dünya sineması, yemek kültürü, hayvanlar ve daha birçok kategori hakkında görsel sorular içeren kapsamlı bir quiz oyunudur.
 
 ### ✨ Özellikler
 
-- 📝 **50 Görsel Soru**: Coğrafya, film, yemek, hayvanlar, tarih ve daha fazlası
-- ⏱️ **90 Saniye Süre**: Her soru için yeterli düşünme zamanı
+- 📝 **50 Görsel Soru**: Zengin soru havuzu ve kategoriler
+- ⏱️ **20 Saniye Süre**: Hızlı tempolu oyun deneyimi
 - 🏆 **Puan Sistemi**: Doğru cevap + hız bonusu
 - 📊 **Canlı Liderlik Tablosu**: Tüm oyuncuların skorları
 - 💾 **Otomatik Kayıt**: localStorage ile skor saklama
 - 📱 **Responsive Tasarım**: Tüm cihazlarda çalışır
+- 💡 **Açıklama Sistemi**: Her sorunun ardından detaylı açıklama
 
 ## 🚀 Hızlı Başlangıç
 
@@ -38,7 +39,6 @@ Bu oyun şu anda GitHub Pages üzerinde aktif olarak çalışmaktadır:
 
 1. **GitHub Repository Oluşturun**
    ```bash
-   # Terminalden yeni bir repo oluşturun veya GitHub'da manuel olarak oluşturun
    git init
    git add .
    git commit -m "İlk commit: Dünya Gezgini oyunu"
@@ -54,63 +54,80 @@ Bu oyun şu anda GitHub Pages üzerinde aktif olarak çalışmaktadır:
    - Branch olarak `main` seçin, folder `/ (root)` bırakın
    - `Save` butonuna tıklayın
 
-3. **Oyununuz Hazır!**
-   - Birkaç dakika sonra oyununuz şu adreste yayında olacak:
-   - `https://KULLANICI_ADI.github.io/REPO_ADI/`
-
 ## 🎯 Nasıl Oynanır?
 
 ### Oyuncu İçin:
 1. Oyun linkini tarayıcınızda açın
 2. Adınızı girin ve "Oyuna Başla" butonuna tıklayın
-3. Her soruda 90 saniyeniz var
+3. Her soruda 20 saniyeniz var
 4. Doğru cevaba hızlı tıklayın (hız bonusu alın!)
-5. 50 soru tamamlandıktan sonra sonuçlarınızı görün
+5. Sorunun ardından açıklamayı okuyun
+6. 50 soru tamamlandıktan sonra sonuçlarınızı görün
 
 ### Zoom Moderatörü İçin:
 1. Oyun URL'ini tüm katılımcılarla paylaşın
 2. Herkesi aynı anda başlatın: "3, 2, 1, Başla!"
-3. 75 dakika sonra sonuçları karşılaştırın
+3. Yaklaşık 20 dakika sonra sonuçları karşılaştırın
 4. "Tüm Skorları Gör" butonuyla kazananı ilan edin
 
 ## 📊 Puanlama Sistemi
 
 - **Doğru Cevap**: 100 puan
-- **Hız Bonusu**: Kalan süre ÷ 10 (en fazla 9 puan)
-- **Toplam**: En fazla 109 puan/soru (50 soru = 5450 puan maksimum)
+- **Hız Bonusu**: Kalan süre × 5 (en fazla 95 puan)
+- **Toplam**: En fazla 195 puan/soru (50 soru = 9750 puan maksimum)
 
 ## 📋 Soru Kategorileri
 
-Oyun şu tür sorular içerir:
-- 🏛️ **Coğrafya**: Ünlü yapılar, şehirler, ülkeler (Eyfel Kulesi, Kolezyum, vb.)
-- 🎬 **Film & Dizi**: Ünlü filmler, diziler, aktörler
-- 🍕 **Yemek Kültürü**: Geleneksel yemekler ve ait oldukları ülkeler
-- 🐨 **Hayvanlar**: Farklı türler ve yaşadıkları bölgeler
-- 📚 **Tarih**: Tarihi kişiler, olaylar ve dönemler
-- 🎵 **Kültür**: Müzik, dans, geleneksel objeler
-- 🔬 **Bilim**: Temel bilimsel kavramlar
-- 🎨 **Sanat**: Ünlü sanatçılar ve eserleri
-- 🏃 **Spor**: Ünlü spor dalları ve etkinlikler
-- 🌿 **Doğa**: Bitkiler, iklim bölgeleri, doğa olayları
+Oyun 50 sorudan oluşan zengin bir soru havuzuna sahiptir:
+
+### 🏛️ Dünya Coğrafyası & Ünlü Yapılar (10 soru)
+- Eyfel Kulesi, Kolezyum, Özgürlük Heykeli
+- Big Ben, Taj Mahal, Pisa Kulesi
+- Sagrada Familia, Kızıl Meydan, Büyük Çin Seddi
+
+### 🎬 Türk Film & Dizi Sahneleri (10 soru)
+- GORA, Tosun Paşa, Babam ve Oğlum
+- Hababam Sınıfı, Kurtlar Vadisi, Diriliş Ertuğrul
+- Leyla ile Mecnun ve daha fazlası
+- Özel ekip fotoğrafları ve eğlenceli sorular
+
+### 🎭 Dünya Film Sahneleri (10 soru)
+- Star Wars, Titanic, The Lion King
+- The Dark Knight, Jurassic Park, Forrest Gump
+- Fast & Furious, The Godfather, Lord of the Rings
+- The Matrix ve diğer klasikler
+
+### 🍖 Döner & Türk Yemekleri (10 soru)
+- Döner kebap tarihi ve kültürü
+- İskender kebap, Adana kebap
+- Türk mutfağının dünyaya armağanları
+- Geleneksel lezzetler ve şehirler
+
+### 🌍 Genel Kültür & Çeşitli (10 soru)
+- Hayvanlar ve yaşam alanları
+- Müzik enstrümanları ve türleri
+- Spor dalları ve ülkeler
+- Doğa, bitkiler ve iklim
 
 ## 🔧 Teknik Detaylar
 
 ### Dosya Yapısı
 ```
-oyun/
+gezgin/
 ├── index.html          # Ana sayfa
 ├── style.css           # Stil dosyası  
 ├── game.js             # Oyun mantığı
-├── questions.js        # Soru havuzu
+├── questions.js        # Soru havuzu (50 soru)
+├── search_images/      # Yerel görseller
 └── README.md           # Dokümantasyon
 ```
 
-### Teknolojiler
-- **HTML5**: Semantic markup
-- **CSS3**: Flexbox, Grid, Animations
-- **Vanilla JavaScript**: ES6+ features
-- **localStorage**: Skor saklama
-- **Unsplash API**: Görseller için
+### Özellikler
+- **Karışık Soru Sistemi**: Her oyunda farklı sıralama
+- **Görsel Optimizasyonu**: Hızlı yüklenen görseller
+- **Açıklama Sistemi**: Her sorunun ardından bilgilendirici açıklama
+- **Skor Saklama**: Tarayıcıda kalıcı skor tablosu
+- **Modern UI**: Gradient tasarım ve animasyonlar
 
 ### Tarayıcı Desteği
 - ✅ Chrome 60+
@@ -125,70 +142,51 @@ oyun/
 
 ```javascript
 {
-    image: "https://images.unsplash.com/photo-ID?w=800&h=600&fit=crop",
+    image: "https://example.com/image.jpg", // veya "./search_images/image.jpg"
     question: "Bu yer hangi ülkede?",
     options: ["Seçenek 1", "Seçenek 2", "Seçenek 3", "Seçenek 4"],
     correct: 0, // Doğru cevap indexi (0-3)
-    explanation: "Açıklama metni"
+    explanation: "Detaylı açıklama metni burada yer alır."
 }
 ```
 
 ### Oyun Ayarlarını Değiştirmek
 `game.js` dosyasında şu değerleri değiştirebilirsiniz:
-- `this.timeLeft = 90` - Soru başına süre
-- `.slice(0, 30)` - Toplam soru sayısı
-- `100 + timeBonus` - Puan hesaplama
-
-### Renk Temasını Değiştirmek
-`style.css` dosyasındaki CSS değişkenlerini düzenleyin:
-```css
-:root {
-    --primary-color: #667eea;
-    --secondary-color: #764ba2;
-    --accent-color: #feca57;
-}
-```
+- `this.timeLeft = 20` - Soru başına süre
+- Soru sayısını questions.js'deki soru havuzu belirler
+- `100 + timeBonus` - Puan hesaplama formülü
 
 ## 🏆 Önerilen Oyun Formatları
 
 ### 1. Hızlı Turnuva (15 dakika)
-- 10 soru
-- 60 saniye/soru
-- Hızlı eleme sistemi
+- İlk 20 soru
+- 15 saniye/soru
+- Eleme usulü
 
-### 2. Klasik Format (45 dakika)
-- 30 soru
-- 90 saniye/soru
-- Detaylı skor karşılaştırması
+### 2. Klasik Format (20 dakika)
+- Tüm 50 soru
+- 20 saniye/soru
+- Tam deneyim
 
-### 3. Maraton (45 dakika)
-- 30 soru
-- 90 saniye/soru
-- Ekstra zorlu sorular
+### 3. Kategori Özel
+- Belirli kategorilerden sorular
+- Uzman bilgisi testi
 
-## 🐛 Bilinen Sorunlar & Çözümler
+## 🎉 Eğlenceli Detaylar
 
-### Görseller Yüklenmiyor
-- İnternet bağlantınızı kontrol edin
-- Tarayıcınızı yenileyin (F5)
-- Farklı tarayıcı deneyin
-
-### Skorlar Kayboldu
-- Tarayıcı verileri temizlenmiş olabilir
-- localStorage desteği kapalı olabilir
-- Gizli/özel gezinti modunda olabilirsiniz
-
-### Ses Çalışmıyor
-- Tarayıcı ses izni gerektirebilir
-- Cihaz sesi kapalı olabilir
-- JavaScript ses desteği yoksa manuel geçilir
+- **Özel Ekip Soruları**: Ekip üyelerinin fotoğrafları ve eğlenceli sorular
+- **Türk Kültürü Vurgusu**: Zengin Türk film/dizi/yemek içeriği
+- **Emoji Kullanımı**: Açıklamalarda eğlenceli emoji'ler
+- **Kişisel Dokunuşlar**: Geliştiricinin özel mesajları
 
 ## 📞 Destek
 
+Bu oyun [@ferdogan](https://x.com/fecassie) tarafından Zoom ekipleri için özel olarak geliştirilmiştir.
+
 Sorularınız için:
-- 📧 Issues kısmında soru sorabilirsiniz
+- 📧 GitHub Issues bölümünü kullanabilirsiniz
 - 🔧 Pull request'ler memnuniyetle karşılanır
-- 📚 Wiki sayfasında ek bilgiler bulabilirsiniz
+- 🐦 Twitter: [@fecassie](https://x.com/fecassie)
 
 ## 🎉 Keyifli Oyunlar!
 
@@ -196,4 +194,4 @@ Ekibinizle eğlenceli zamanlar geçirmeniz dileğiyle! 🌍✈️
 
 ---
 
-*Bu oyun Zoom ekip toplantıları için özel olarak tasarlanmıştır. Coğrafyayı seviyorsanız ve ekip ruhu arıyorsanız, tam size göre!* 
+*Bu oyun Zoom ekip toplantıları için özel olarak tasarlanmıştır. 50 çeşitli soruyla bilginizi test edin, ekip arkadaşlarınızla yarışın!* 
