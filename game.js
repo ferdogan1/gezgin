@@ -49,6 +49,10 @@ class WorldExplorerGame {
             this.showAllScores();
         });
 
+        document.getElementById('reset-scores').addEventListener('click', () => {
+            this.resetAllScores();
+        });
+
         // İsim girişi kontrolü
         document.getElementById('player-name').addEventListener('input', () => {
             const startBtn = document.getElementById('start-game');
@@ -321,6 +325,28 @@ class WorldExplorerGame {
         });
         
         alert(message);
+    }
+
+    resetAllScores() {
+        // Kullanıcıdan onay al
+        const confirmation = confirm(
+            '⚠️ DİKKAT! ⚠️\n\n' +
+            'Tüm skorları silmek istediğinizden emin misiniz?\n' +
+            'Bu işlem geri alınamaz!\n\n' +
+            'Silmek için "Tamam"a tıklayın.'
+        );
+        
+        if (confirmation) {
+            // localStorage'ı temizle
+            localStorage.removeItem('worldExplorerLeaderboard');
+            
+            // Leaderboard'ları güncelle
+            this.updateLeaderboard();
+            this.loadWelcomeLeaderboard();
+            
+            // Başarı mesajı
+            alert('✅ Tüm skorlar başarıyla silindi!\n\nYeni oyun için hazırsınız! 🎮');
+        }
     }
 
     resetGame() {
