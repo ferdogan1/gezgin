@@ -1,0 +1,23 @@
+- ülke tahmini
+- şehir tahmini
+- Film Tahmini
+- Dizi İsmi Tahmini
+- Ünlü Kişi Tahmini
+- yemek tahmini
+- yemeğin ait olduğu ülke tahmini
+- tarihi olay tahmini
+- tarihi kişi tahmini
+- tarihi ülke tahmini
+- tarihi şehir tahmini
+- tarihi film tahmini
+- tarihi dizi tahmini
+- tarihi ünlü kişi tahmini
+- tarihi yemek tahmini
+- tarihi yemeğin ait olduğu ülke tahmini
+- tarihi olay tahmini
+- hayvan tahmini
+- bilimsel kavram tahmini
+- Renk Karışımı Tahmini
+- Lokasyon Tahmini
+- Sayı Tahmini
+- Nesne Tahmini
