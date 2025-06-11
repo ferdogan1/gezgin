@@ -233,6 +233,33 @@ body {
     box-shadow: 0 8px 25px rgba(244, 67, 54, 0.4);
 }
 
+.btn-danger-small {
+    background: linear-gradient(135deg, #f44336, #d32f2f);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(244, 67, 54, 0.3);
+    display: none; /* Başlangıçta gizli */
+}
+
+.btn-danger-small:hover {
+    background: linear-gradient(135deg, #d32f2f, #b71c1c);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(244, 67, 54, 0.4);
+}
+
+.welcome-actions {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 /* Oyun Ekranı */
 #game-screen {
     background: rgba(255, 255, 255, 0.95);

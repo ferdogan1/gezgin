@@ -5,7 +5,7 @@ class WorldExplorerGame {
         this.gameQuestions = [];
         this.currentQuestionIndex = 0;
         this.score = 0;
-        this.timeLeft = 90;
+        this.timeLeft = 20;
         this.timer = null;
         this.gameStartTime = null;
         this.questionStartTime = null;
@@ -50,6 +50,10 @@ class WorldExplorerGame {
         });
 
         document.getElementById('reset-scores').addEventListener('click', () => {
+            this.resetAllScores();
+        });
+
+        document.getElementById('reset-scores-welcome').addEventListener('click', () => {
             this.resetAllScores();
         });
 
@@ -116,7 +120,7 @@ class WorldExplorerGame {
         });
 
         // Timer'ı sıfırla
-        this.timeLeft = 90;
+        this.timeLeft = 20;
         this.updateTimer();
     }
 
@@ -354,7 +358,7 @@ class WorldExplorerGame {
         this.gameQuestions = [];
         this.currentQuestionIndex = 0;
         this.score = 0;
-        this.timeLeft = 90;
+        this.timeLeft = 20;
         clearInterval(this.timer);
         
         document.getElementById('player-name').value = '';
@@ -405,10 +409,20 @@ class WorldExplorerGame {
     loadWelcomeLeaderboard() {
         const leaderboard = this.loadLeaderboard();
         const welcomeLeaderboardContent = document.getElementById('welcome-leaderboard-content');
+        const resetButton = document.getElementById('reset-scores-welcome');
         
         if (leaderboard.length === 0) {
             welcomeLeaderboardContent.innerHTML = '<p class="no-scores">Henüz hiç oyun oynanmadı. İlk sen ol!</p>';
+            // Skor yoksa butonu gizle
+            if (resetButton) {
+                resetButton.style.display = 'none';
+            }
             return;
+        }
+
+        // Skorlar varsa butonu göster
+        if (resetButton) {
+            resetButton.style.display = 'inline-block';
         }
 
         let html = '';

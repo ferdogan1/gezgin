@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dünya Gezgini - Zoom üzerinden oynanabilen eğlenceli coğrafya ve genel kültür oyunu. 50 soru, 90 saniye süre ve puan yarışması!">
+    <meta name="description" content="Dünya Gezgini - Zoom üzerinden oynanabilen eğlenceli coğrafya ve genel kültür oyunu. 50 soru, 20 saniye süre ve puan yarışması!">
     <meta name="keywords" content="zoom oyunu, coğrafya oyunu, online quiz, dünya gezgini, genel kültür">
     <meta name="author" content="ferdogan">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="🌍 Dünya Gezgini - Ekip Oyunu">
-    <meta property="og:description" content="Zoom üzerinden oynanabilen eğlenceli coğrafya ve genel kültür oyunu!">
+    <meta property="og:description" content="50 soru, 20 saniye hız, sınırsız eğlence! Zoom üzerinden oynanabilen coğrafya oyunu.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ferdogan1.github.io/oyun/">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="🌍 Dünya Gezgini - Ekip Oyunu">
-    <meta name="twitter:description" content="Zoom üzerinden oynanabilen eğlenceli coğrafya ve genel kültür oyunu!">
+    <meta name="twitter:description" content="50 soru, 20 saniye hız, sınırsız eğlence! Zoom üzerinden oynanabilen coğrafya oyunu.">
     
     <title>🌍 Dünya Gezgini - Ekip Oyunu</title>
     <link rel="stylesheet" href="style.css">
@@ -36,7 +36,7 @@
                 <p class="subtitle">Dünyadan filmler, yemekler, hayvanlar ve daha fazlası! Bakalım ne kadar iyi tanıyorsun?</p>
                 <div class="game-info">
                     <div class="info-item">📝 50 Soru</div>
-                    <div class="info-item">⏱️ 90 saniye/soru</div>
+                    <div class="info-item">⏱️ 20 saniye/soru</div>
                     <div class="info-item">🏆 Puan yarışması</div>
                 </div>
                 <div class="player-input">
@@ -49,6 +49,9 @@
                     <h3>🏆 En İyi Skorlar</h3>
                     <div id="welcome-leaderboard-content" class="welcome-leaderboard-content">
                         <p class="no-scores">Henüz hiç oyun oynanmadı. İlk sen ol!</p>
+                    </div>
+                    <div class="welcome-actions">
+                        <button id="reset-scores-welcome" class="btn-danger-small">🗑️ Skorları Sıfırla</button>
                     </div>
                 </div>
             </div>
@@ -64,7 +67,7 @@
                     </div>
                 </div>
                 <div class="timer-section">
-                    <div id="timer" class="timer">90</div>
+                    <div id="timer" class="timer">20</div>
                 </div>
                 <div class="score-info">
                     <span id="current-score">Puan: 0</span>
